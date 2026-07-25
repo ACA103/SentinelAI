@@ -1,8 +1,8 @@
 # 🛡️ SentinelAI: Enterprise Security Intelligence Platform
 
-![SentinelAI](https://img.shields.io/badge/Status-Hackathon_Ready-00E676?style=for-the-badge)
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dark_Theme-FF4B4B?style=for-the-badge)
+
 
 SentinelAI is an end-to-end, multi-stage AI security platform designed to move beyond simple anomaly detection. It actively learns normal behavior, detects deviations using an ensemble of models, accurately classifies attack vectors, and explains its reasoning in human-readable terms on a premium analyst dashboard.
 
