@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+
+# Testing
+.pytest_cache/
+coverage.xml
+
+# Data & Models (You may want to exclude large binaries from git)
+# data/raw/*.parquet
+# data/predictions/*.parquet
+# data/processed/*.parquet
+# models/**/*.pkl
+# artifacts/*.pkl
+
+# OS generated files
+.DS_Store
+Thumbs.db

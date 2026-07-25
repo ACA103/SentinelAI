@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  sentinelai:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/home/user/app/data
+      - ./artifacts:/home/user/app/artifacts
+      - ./models:/home/user/app/models
