@@ -1,0 +1,9 @@
+department_id,department_name,work_start_hour,work_end_hour
+1,Finance,7,16
+2,Engineering,9,17
+3,Sales,8,17
+4,IT Support,7,16
+5,Marketing,20,16
+6,Legal,7,16
+7,Operations,8,17
+8,Contractors,7,17

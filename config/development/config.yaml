@@ -1,0 +1,40 @@
+app:
+  name: "SentinelAI"
+  environment: "development"
+  version: "1.0.0"
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  artifacts: "artifacts"
+  predictions: "predictions"
+  reports: "reports"
+  database: "database/sentinel.duckdb"
+
+duckdb:
+  memory_limit: "4GB"
+  threads: 4
+
+risk_weights:
+  rule_contribution: 0.30
+  stat_contribution: 0.10
+  ml_contribution: 0.40
+  behavioral_contribution: 0.10
+  device_contribution: 0.10
+
+classification_labels:
+  - "Normal Authentication"
+  - "Credential Stuffing"
+  - "Password Spray"
+  - "Brute Force"
+  - "Impossible Travel"
+  - "Insider Threat"
+  - "Privilege Abuse"
+  - "Suspicious Device"
+
+recommendations:
+  Low: "Monitor"
+  Moderate: "Review activity"
+  Elevated: "Step-up Authentication"
+  High: "Require MFA, Notify SOC"
+  Critical: "Lock account, Block authentication, Escalate incident"
