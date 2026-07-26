@@ -16,7 +16,6 @@ def main():
         
     # 2. Launch Streamlit
     print("Launching Streamlit Dashboard...")
-    subprocess.run([sys.executable, "-m", "streamlit", "run", "src/ui/app.py", "--server.port=7860", "--server.address=0.0.0.0", "--browser.gatherUsageStats=false", "--server.headless=true"])
-
+    
 if __name__ == "__main__":
     main()
